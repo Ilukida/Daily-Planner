@@ -13,4 +13,30 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="CalendarStyle">
+        <item name="headerColor">@color/purple_700</item>
+        <item name="selectionColor">@color/teal_200</item>
+        <item name="type">one_day_picker</item>
+        <item name="todayLabelColor">@color/purple_500</item>
+    </style>
+
+    <style name="CalendarRecyclerView">
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="Text">
+        <item name="color">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.EventName">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Button">
+        <item name="background">@drawable/rounded_button_background</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
 </resources>
